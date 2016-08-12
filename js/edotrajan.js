@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
 
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
@@ -36,15 +32,14 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(13.0476, 80.1887), // New York
+        center: new google.maps.LatLng(13.0538, 80.1940), // Virugamabakam
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
         draggable: false,
 
-        // How you would like to style the map. 
-        // This is where you would paste any style found on Snazzy Maps.
+        
         styles: [{
             "featureType": "water",
             "elementType": "geometry",
@@ -164,7 +159,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(13.0476, 80.1887);
+    var myLatLng = new google.maps.LatLng(13.0538, 80.1940);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
